@@ -1,0 +1,63 @@
+.footer1{
+    background-color: black;
+    margin-top: 30px;
+    /* height: 400px; */
+    width: 1200px;
+}
+.footer2{
+    color: white;
+    margin-left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer1 p{
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer1 a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+}
+#footer2{
+    color: white;
+}
+.iconss{
+   
+    gap: 30px;
+    color: white;
+}
+.iconss h4:hover{
+    color: blue;
+}
+.call{
+    padding-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.ul1{
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.product{
+    margin-left: 28px;
+    color: white;
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.support{
+    margin-left: 28px;
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+.copy{
+    padding-top: 70px;
+    font-size: 20px;
+}

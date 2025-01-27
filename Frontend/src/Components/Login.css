@@ -1,0 +1,45 @@
+.backg{
+    background-color: rgb(229, 255, 216);
+}
+.name{
+    color: rgb(33, 32, 33);
+}
+form{
+    width: 350px;
+    margin: 20vh auto;
+    border-radius: 10px;
+    border: 5px solid #cbe7ee;
+    background-color: #e6eaeb;
+    padding: 30px;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    color: rgb(136, 136, 247);
+    margin-top: 50px;
+    font-size: 40px;
+}
+#form button{
+    margin: 20px 0px;
+    padding: 5px;
+    font-size: 20px;
+}
+.input-group{
+    /* display: flex; */
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group label{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input-group input{
+    border-radius: 10px;
+    /* font-size: 20px; */
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+.btn{
+    font-family:'Times New Roman', Times, serif;
+}

@@ -1,0 +1,468 @@
+body{
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.nav1{
+    background-color: hsl(358, 59%, 71%); 
+}
+#nav2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+#nav2:hover{
+    color: rgb(65, 52, 210);
+}
+#head{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.contain{
+    display: flex;
+    float: right;
+}
+.contain div{
+    margin: 0px 30px;
+}
+.nav3{
+    color: white;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 576px) {
+    #head{
+        padding-left: 10px;
+    }
+    #nav2{
+        padding-left: 10px;
+    }
+    .contain{
+        display: flex;
+        padding-right: 300px;
+    }
+}
+.bg{
+    background-color: #DFD2EC;
+    height: 700px;
+}
+
+/* Home */
+
+
+#con1{
+    margin-right: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: rgb(192, 182, 43);
+    font-weight: bold;
+    font-style: oblique; 
+    margin-top: 130px;
+}   
+#con3{
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#con3:hover{
+    background-color: rgb(0, 17, 255);
+}
+#con8{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-right: 80px;
+    font-style: oblique; 
+}
+.frontview #con2,#con3{
+    margin-left: 100px;
+}
+@media screen and (min-width:50px) and (max-width:576px){
+    .bg{
+        height: 650px;
+    }
+    #con1{
+        margin-right: 0px;
+        margin-top: 2px;
+        font-size: 40px;
+    }
+    #con8{
+        margin-right: 0px;
+        text-align: center;
+        font-size: 40px; 
+    }
+    .frontview{
+        text-align: center;
+    }
+    .frontview #con2,#con3{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width:1200px){
+    .bg{
+        height: 500px;
+    }
+    #img1{
+        margin-top: 30px;
+    }
+
+    #con1{
+        margin-top: 90px;
+        font-size: 40px;
+        margin-right: 170px;
+        text-align: center;
+    }
+    #con8{
+        font-size: 40px;
+    }
+} 
+
+/* New collections */
+
+.card-img-top{
+    transition: transform .2s;
+    cursor: pointer;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.cardtitle1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.cardtitle2{
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    margin-left: 20px;
+    font-size: 2px;
+    margin-top: -3px;
+}
+.money{
+    margin-left: 20px;
+}
+.wishlist{
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.cart{
+    margin-top: -25px;
+    font-size: 30px;
+    height: 25px; 
+    width: 100px;
+    padding-top: 0px;
+}
+ @media (min-width:50px) and (max-width: 426px){
+    .cart{
+        margin-left: 5px;
+    }.wishlist{
+        margin-left: 120px;
+        
+    }
+}
+
+/* border */
+
+.border1{
+    border: 50px solid rgb(241, 196, 205);
+}
+.imageup{
+    margin-top: -40px;
+    margin-left: -1px;
+}
+.border2{
+    background-color:rgb(241, 196, 205);
+}   
+.con6{
+    font-size: 60px;
+    margin-top: 8rem;
+    margin-left: -60px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color:#0505d4;
+}
+.con7{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: -40px;
+    color: #cc13dd;
+}
+.con8{
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 70px;
+}
+#con9{
+    margin-left: 120px;
+    margin-top: 60px;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 576px){
+   #con9{
+      margin-top: 2px;
+      margin-left: 25px;
+   }
+   .con6{
+       margin-top: 35px;
+       margin-left: 1px;
+       font-size: 26px;
+   }
+   .con7{
+       font-size: 26px;
+       margin-left: 0px;
+    }
+    .con8{
+        margin-left: 70px;
+        font-size: 40px;
+    }
+}
+@media (min-width: 767px) and (max-width:1200px){
+    .con6{
+        margin-top: 30px;
+    }#con9{
+        margin-left: 40px;
+        margin-top: 4px;
+    }
+}
+.con9{
+    margin-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:red;
+    text-align: center;
+}
+.conn{
+    margin-top: 190px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Free delivery */
+
+.border4{
+    border: 60px solid rgb(216, 251, 167);
+    background-color: rgb(216, 251, 167);
+    height: 200px;
+}
+.border4 div{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+}
+.border4 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.borderr{
+    font-size: 30px;
+    margin-top: -80px;
+    margin-left: 75px;
+}
+.top{
+    margin-top: 130px;
+}
+@media (min-width: 767px) and (max-width:1022px){
+    .border4{
+        height: 200px;
+    }
+    .borderr{
+        margin-left: 10px;
+    }.border4 div{
+        font-size: 12px;
+        font-weight: bold;
+    }.return1{
+        display: none;
+    }
+}@media (min-width:1023px) and (max-width:1439px){
+    .border4{
+        height: 250px;
+    }.borderr{
+        margin-left: 30px;}
+}
+
+/* Subscribe */
+
+.star{
+    text-align: center;
+    color: yellow;
+}
+.emoji1{
+    text-align: center;
+    font-size: 50px;
+}
+.input1{
+    margin-top: 150px;
+    background-color: rgb(211, 205, 205);
+    height: 450px;
+}
+.input2{
+    font-family: 'Times New Roman', Times, serif;
+    color: red; 
+    
+}
+.input3{
+    color: rgb(235, 84, 109);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#input4{
+    margin-top: 100px;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#con12{
+    margin-left: 20px;
+    margin-top: -2px;
+
+}
+.icon3 h4 :hover{
+    color: red;
+}
+.icon4{
+    margin-left: 550px;
+}
+@media screen and (max-width:576px){
+    #input4{
+        width: 250px;
+    }
+    #con12{
+        margin-top: 20px;
+    }
+    .icon4{
+        margin-left: 100px;
+        /* margin-top: 15px; */
+        
+    }
+}
+
+
+/* REviews */
+
+.review1{
+    color: black;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.custom{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 120px;
+    color: rgb(160, 75, 160);
+}
+.star{
+    color: rgb(239, 239, 17);
+}
+.review2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(212, 212, 208);
+    color: violet;
+}
+.connn{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* login */
+
+.logde{
+    color: rgb(46, 234, 93);
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* categories */
+
+.backimg{
+    background-image: url("https://img.freepik.com/premium-photo/girl39s-school-uniform-black-sweater-blue-shirt-pleated-skirt_719585-11913.jpg?uid=R179528585&ga=GA1.1.1840216468.1719552424&semt=ais_hybrid");
+    background-size: cover;
+    filter: blur(1px);
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.categories1{
+    margin: 20vh auto;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fashion{
+    margin-top: 100px;
+}
+.conn1{
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+.category{
+    margin-top: 130px;
+}
+.text1{
+    margin-left: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-style: italic;
+}
+.img-top{
+    transition: transform .2s;
+    cursor: pointer;
+}
+.img-top:hover{
+    transform: scale(1.1);
+}
+.low{
+    margin-top: 50px;
+    color: hwb(230 34% 4%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.quality{
+    font-size: 45px;
+    color:hwb(230 34% 4%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.get{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shop1{
+    margin-left: 200px;
+}
+
+/* dropdown */
+
+#basic-nav-dropdown{
+    margin-top: 70px;
+    
+}
+
+.dress1{
+    margin-left: -100px;
+}
+
+
+
