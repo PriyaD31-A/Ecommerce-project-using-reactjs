@@ -27,11 +27,11 @@ const Typee1 = () => {
           <div className="row row-cols-2 row-cols-md-2 row-cols-lg-5 mt-5 justify-content-around ms-2">
             {typee1.map((users) => (
               <div className="col p-3">
-                <Card className="align-items-center apply"  style={{ height: "350px" }}>
-                  <Card.Img variant="top" src={link+users.Category_Image} style={{ width: "70%", height: "200px", padding: "10px" }}/>
+                <Card className="align-items-center apply"  style={{ height: "280px" }}>
+                  <Card.Img variant="top" src={link+users.Category_Image} style={{ width: "80%", height: "150px", padding: "10px" }}/>
                   <Card.Body>
                   <Card.Title className="cardtitle1">{users.Category_Name1}</Card.Title>
-                    <p className="money fs-6">upto ₹{users.Category_Price}</p>
+                    <p className="money">upto ₹{users.Category_Price}</p>
                     <Button variant="primary cart p-0 mt-2" onClick={() => {addtocart(users)}}>Add to cart</Button>
                     <div className="wishlist"><SlHeart /> </div>
                    

@@ -27,8 +27,8 @@ const Typee23 = () => {
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 mt-5 justify-content-around ms-2">
             {typee23.map((users22) => (
               <div className="col p-3">
-                <Card className="align-items-center apply"  style={{ height: "350px",width:"100%"}}>
-                  <Card.Img variant="top" src={link22+users22.Category_Image} style={{ width: "70%", height: "200px", padding: "10px" }}/>
+                <Card className="align-items-center apply"  style={{ height: "300px",width:"100%"}}>
+                  <Card.Img variant="top" src={link22+users22.Category_Image} style={{ width: "70%", height: "160px", padding: "10px" }}/>
                   <Card.Body>
                   <Card.Title className="cardtitle1">{users22.Category_Name2}</Card.Title>
                     <p className="money fs-6">upto ₹{users22.Category_Price}</p>

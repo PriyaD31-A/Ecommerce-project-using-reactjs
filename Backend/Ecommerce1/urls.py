@@ -27,7 +27,8 @@ router =  DefaultRouter()
 router.register(r'Home',Home_view)
 router.register(r'Traditional',T_Home2_view)
 router.register(r'categories',Categories_view)
-router.register(r'categories1',Categories_Type1_View)
+# sarees
+router.register(r'categories1',Categories_Type1_View)     
 router.register(r'add1', Type1_View)
 router.register(r'categories2',Categories_Type2_View)
 router.register(r'add2',Type2_View)
@@ -47,6 +48,7 @@ router.register(r'add7',Type7_View)
 urlpatterns = [
     path('admin/',admin.site.urls),
     path('apivalues/',include(router.urls)),
+    # Sarees
     path('add1/<int:id>/',Add_View.as_view()),
     path('add2/<int:id>/',Add_View1.as_view()),
     path('add3/<int:id>/',Add_View2.as_view()),

@@ -129,6 +129,11 @@ body{
 
 /* New collections */
 
+.apply{
+    box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
 .card-img-top{
     transition: transform .2s;
     cursor: pointer;
@@ -138,7 +143,7 @@ body{
 }
 .cardtitle1{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-size: 15px !important;
     margin-left: 20px;
     margin-top: -3px;
 }
@@ -146,14 +151,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
     /* font-weight: bold; */
     margin-left: 20px;
-    font-size: 2px;
+    /* font-size: 2px; */
     margin-top: -3px;
 }
 .money{
     margin-left: 20px;
+    font-size: 10px !important;
 }
 .wishlist{
-    margin-left: 150px;
+    margin-left: 130px;
     margin-top: -25px;
 }
 .cart{
@@ -161,6 +167,7 @@ body{
     font-size: 30px;
     height: 25px; 
     width: 100px;
+    margin-left: 10px;
     padding-top: 0px;
 }
  @media (min-width:50px) and (max-width: 426px){

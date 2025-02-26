@@ -28,8 +28,8 @@ const Typee34 = () => {
           <div className="row row-cols-2 row-cols-md-2 row-cols-lg-5 mt-5 justify-content-around ms-2">
             {typee34.map((users33) => (
               <div className="col p-3">
-                <Card className="align-items-center apply"  style={{ height: "380px",width:"100%"}}>
-                  <Card.Img variant="top" src={link33+users33.Category_Image} style={{ width: "70%", height: "220px", padding: "10px" }}/>
+                <Card className="align-items-center apply"  style={{ height: "300px",width:"100%"}}>
+                  <Card.Img variant="top" src={link33+users33.Category_Image} style={{ width: "70%", height: "160px", padding: "10px" }}/>
                   <Card.Body>
                   <Card.Title className="cardtitle1">{users33.Category_Name2}</Card.Title>
                     <p className="money fs-6">upto ₹{users33.Category_Price}</p>
