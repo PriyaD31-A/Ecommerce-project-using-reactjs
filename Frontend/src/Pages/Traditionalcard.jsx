@@ -4,8 +4,14 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { SlHeart } from "react-icons/sl";
 
-const Traditionalcard = () => {
+const Traditionalcard = ({search1}) => {
     const [userdetails, Traditional] = useState([]);
+
+    const searchDress1 = userdetails.filter((user2) => 
+         search1 === "" || (user2.T_Name  && user2.T_Name.toLowerCase().includes(search1.toLowerCase()))
+   
+    )
+
     useEffect(() => {
         axios.get("http://127.0.0.1:8000/apivalues/Traditional/")
       .then((response) => {
@@ -22,11 +28,11 @@ const Traditionalcard = () => {
       <div className='container mt-5'>
         <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-around ms-2'>
             {
-                userdetails.map((user2) => (
+                searchDress1.map((user2) => (
                   <div className='col p-3'>
-                    <Card className='align-items-center' style={{height:"320px"}}>
+                    <Card className='align-items-center apply' style={{height:"280px"}}>
                   
-                  <Card.Img variant="top" src={user2.T_Image}  style={{ width: '90%' ,height:'180px', padding: '5px' }} />
+                  <Card.Img variant="top" src={user2.T_Image}  style={{ width: '90%' ,height:'150px', padding: '5px' }} />
                   <Card.Body>
                     <Card.Title className='cardtitle1'>{user2.T_Name}</Card.Title>
                     <p className='money fs-6'>upto ₹{user2.T_Price}</p>

@@ -26,12 +26,12 @@ const Categoriescard = () => {
             <div className="col p-3">
               <Card
                 className="align-items-center apply"
-                style={{ height: "320px" }}
+                style={{ height: "280px" }}
               >
                 <Card.Img
                   variant="top"
                   src={users2.C_Image}
-                  style={{ width: "90%", height: "180px", padding: "10px" }}
+                  style={{ width: "90%", height: "150px", padding: "10px" }}
                 />
                 <Card.Body>
                   <Card.Title className="cardtitle1">{users2.C_Name}</Card.Title>

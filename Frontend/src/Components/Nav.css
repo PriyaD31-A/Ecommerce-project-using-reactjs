@@ -29,11 +29,23 @@ body{
 }
 .contain div{
     margin: 0px 30px;
+    
 }
 .nav3{
     color: white;
     margin-left: 30px;
     font-size: 30px;
+}
+.inputbox{
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin:  auto;
+    outline-color: skyblue;
+}
+.nav4{
+    margin-right: 800px;
 }
 
 
@@ -127,11 +139,23 @@ body{
     }
 } 
 
+
+/* .category */
+
+.nav-icon {
+    width: 39px; /* Adjust size as needed */
+    height: 45px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
 /* New collections */
 
 .apply{
     box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease-in-out;
+    /* width: 200px; */
 }
 
 .card-img-top{
@@ -256,7 +280,7 @@ body{
     text-align: center;
 }
 .conn{
-    margin-top: 190px;
+    margin-top: 500px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-weight: bold;
@@ -403,6 +427,26 @@ body{
 
 /* categories */
 
+
+@media (min-width: 50px) and (max-width: 768px){
+    .categories{
+        display: none;
+    }
+}
+
+.categories2 .nav {
+    text-align: center;
+}
+
+.categories2 .nav .nav-link {
+    font-weight: bold;
+}
+
+.categories2 .nav .dropdown-menu {
+    min-width: 200px; /* Ensures dropdown width */
+}
+
+
 .backimg{
     background-image: url("https://img.freepik.com/premium-photo/girl39s-school-uniform-black-sweater-blue-shirt-pleated-skirt_719585-11913.jpg?uid=R179528585&ga=GA1.1.1840216468.1719552424&semt=ais_hybrid");
     background-size: cover;
@@ -419,8 +463,8 @@ body{
 .fashion{
     margin-top: 100px;
 }
-.conn1{
-    margin-top: 80px;
+.conn{
+    margin-top: 190px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-weight: bold;

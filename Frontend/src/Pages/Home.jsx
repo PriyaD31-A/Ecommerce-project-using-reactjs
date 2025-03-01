@@ -8,26 +8,34 @@ import Reviews from './Reviews';
 import Footer from '../Components/Footer';
 import Card1 from './Card1';
 import Traditionalcard from './Traditionalcard';
+import Searchbox from './Searchbox';
+import Categories from './Categories';
 
 
 const Home = () => {
+  const [search,setSearch] = useState("")
+  const [search1,setSearch1] = useState("")
   
   const imageurl = './src/Pages/topimg10.png'
   const imageurl3 = './src/pages/style3.png'
   return (
-    
-     
-    <div className='row bg'> 
+    <div className='row bg'>
       <Nava/>
 
-  
-    
-    <div className='col-sm-6'>
-       <img src={imageurl} className='img-fluid mt-5' id="img1" alt="not found" />
+    {/* <Searchbox setSearch = {setSearch}
+      setSearch1 = {setSearch1}/>  */}
+
+      {/* <Categories/> */}
+      
+       <div className='col-sm-6'>
+      <Searchbox setSearch = {setSearch}
+      setSearch1 = {setSearch1}/> 
+      
+      <img src={imageurl} className='img-fluid mt-2' id="img1" alt="not found" /> 
     </div>
 
     <div className='col-md-6'>
-      <div className='frontview ps-4 '> 
+      <div className='frontview ps-4'> 
        
         <h1 id="con1">Find Your</h1>
         <h1 id="con8">Fashion bliss!!</h1>
@@ -35,14 +43,9 @@ const Home = () => {
         </div>
     
     </div>
-
-    
-
-
   
-<Card1/>
 
-
+  <Card1 search = {search}/>
 
 <div className='container-fluid ms-1'>
   <div className='container mt-5'>
@@ -63,7 +66,7 @@ const Home = () => {
 
 
 
-  <Traditionalcard/>
+  <Traditionalcard search1 = {search1}/>
 
 {/* return */}
 

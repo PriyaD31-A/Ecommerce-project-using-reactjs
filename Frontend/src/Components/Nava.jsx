@@ -40,11 +40,13 @@ function Nava() {
 
           </Nav>
           <div className = 'contain'>
-          <div className='nav3'><Nav.Link  href="#"><IoSearchSharp /></Nav.Link></div>
+         
+          <div className='nav3 nav4'><Nav.Link  href="#"><IoSearchSharp /></Nav.Link></div>
               <div className='nav3'><Nav.Link  href="#"><SlHeart /></Nav.Link></div>
               <div className='nav3'><Nav.Link  href="#"onClick={handleShow1}><FaCartArrowDown /></Nav.Link></div>
               <div className='nav3'><Nav.Link  href="#" onClick={handleShow}><CgProfile /></Nav.Link></div>
           </div>
+          
        
           
         </Navbar.Collapse>
