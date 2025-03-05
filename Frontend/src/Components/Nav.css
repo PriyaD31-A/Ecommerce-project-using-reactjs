@@ -63,7 +63,7 @@ body{
 }
 .bg{
     background-color: #DFD2EC;
-    height: 700px;
+    height: 550px;
 }
 
 /* Home */
@@ -101,7 +101,7 @@ body{
 }
 @media screen and (min-width:50px) and (max-width:576px){
     .bg{
-        height: 650px;
+        height: 290px;
     }
     #con1{
         margin-right: 0px;
@@ -122,7 +122,7 @@ body{
 }
 @media screen and (min-width: 577px) and (max-width:1200px){
     .bg{
-        height: 500px;
+        height: 350px;
     }
     #img1{
         margin-top: 30px;
@@ -138,6 +138,7 @@ body{
         font-size: 40px;
     }
 } 
+
 
 
 /* .category */
@@ -194,6 +195,23 @@ body{
     margin-left: 10px;
     padding-top: 0px;
 }
+.cartCount{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: red; /* Highlight the count */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid white;
+}
+.warning{
+    color: red;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
  @media (min-width:50px) and (max-width: 426px){
     .cart{
         margin-left: 5px;
@@ -245,6 +263,9 @@ body{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+#con9:hover{
+    background-color: #0505d4;
+}
 @media screen and (max-width: 576px){
    #con9{
       margin-top: 2px;
@@ -280,11 +301,12 @@ body{
     text-align: center;
 }
 .conn{
-    margin-top: 500px;
+    margin-top: 100px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-weight: bold;
 }
+
 
 /* Free delivery */
 
@@ -360,6 +382,9 @@ body{
     width: 400px;
     margin-left: 20px;
     border-radius: 20px;
+}
+.searchh2{
+    margin-top: 70px;
 }
 #con12{
     margin-left: 20px;
@@ -464,7 +489,7 @@ body{
     margin-top: 100px;
 }
 .conn{
-    margin-top: 190px;
+    margin-top: 70px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-weight: bold;

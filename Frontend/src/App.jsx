@@ -1,5 +1,5 @@
-import React from 'react'
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import React, { useState } from 'react'
+import {BrowserRouter,Route,Routes, useSearchParams} from 'react-router-dom'
 import Home from './Pages/Home'
 import Login from './Pages/Login'
 import Categories from './Pages/Categories'
@@ -43,12 +43,15 @@ import Typee35 from './Pages/Typee35'
 
 
 const App = () => {
+ 
+  
+  
   return (
     <div>
     
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home/>} />
         <Route path='/Categories' element={<Categories/>}/>
         <Route path='/Offers' element = {<Offers/>} />
         <Route path='/Login' element={<Login/>} />
